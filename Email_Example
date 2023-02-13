@@ -1,0 +1,337 @@
+<html>
+ <head></head>
+ <body> <!-- Meta --> 
+  <meta charset="utf-8"> 
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"> 
+  <meta content="width=device-width, initial-scale=1" name="viewport"> 
+  <link rel="icon" href="https://images.electricalsector.eaton.com/EloquaImages/clients/EatonElectrical/%7Bfe421ec8-dc11-4dc7-89ea-7ac21e8bf79e%7D_eaton-favicon.png" type="image/x-icon"> 
+  <title>Von der SPS zur Kleinsteuerung: einfacher, schneller, unkomplizierter programmieren</title> 
+  <meta http-equiv="Content-Type" nl_content="text/html; charset=UTF-8"> 
+  <meta content="width=device-width, initial-scale=1.0" nl_name="viewport"> 
+  <style type="text/css">
+#outlook a {
+padding: 0;
+}
+body {
+width: 100% !important;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+margin: 0;
+padding: 0; background-color:#f0f0f0;
+}
+.ExternalClass {
+width: 100% !important;
+}
+.ExternalClass,  .ExternalClass p,  .ExternalClass span,  .ExternalClass font,  .ExternalClass td,  .ExternalClass div {
+line-height: 100%;
+}
+img {
+outline: none;
+text-decoration: none;
+-ms-interpolation-mode: bicubic;
+}
+a img {
+border: none;
+}
+.applelinks a {
+color: #ffffff;
+text-decoration: none;
+}
+.applelinksblack a {
+color: #00111b;
+text-decoration: none;
+}
+.applelinksblue a {
+color: #0066c3;
+text-decoration: none;
+}
+.ExternalClass img[class^=Emoji] {
+width: 10px !important;
+height: 10px !important;
+display: inline !important;
+}
+
+/*RESPONSIVE CODE*/
+
+@media screen and (max-width: 580px) {
+*[class=emailwrapto100pc] {
+width: 100% !important;
+height: auto !important;
+}
+*[class=emailnomob] {
+display: none !important;
+}
+*[class=emailcolsplit] {
+width: 100%!important;
+float: left!important;
+}
+*[class=hero] {
+width: 100% !important;
+height: auto !important;
+}
+*[class=mobilecta] {
+width: 260px !important;
+height: 34px;
+padding-top: 5px;
+pading-bottom: 5px;
+background-color: #afafaf;
+display: block;
+font-size: 12px!important;
+font-weight: bold;
+color: #ffffff!important;
+line-height: 30px!important;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+*[class="gmail-fix"] {
+display: none !important;
+}
+}
+</style>   
+  <div> 
+   <div style="background-color: #f0f0f0;"> <!-- ===== Gmail Fix ===== --> <!-- ===== Gmail Fix ===== --> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f0f0f0"> 
+     <tbody>
+      <tr> 
+       <td height="10" style="font-size: 1px; line-height: 1px;" class=""><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="10" style="display:block;" border="0" alt=""></td> 
+      </tr> 
+      <tr> 
+       <td align="center" valign="top">
+        <table width="600" border="0" cellspacing="0" cellpadding="0" class="emailwrapto100pc"> 
+         <tbody>
+          <tr> 
+           <td width="10"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="10" height="1" style="display:block;" border="0" alt=""></td> 
+           <td align="left" valign="top">
+            <table width="600" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc"> 
+             <tbody>
+              <tr> 
+               <td width="100%" align="right" valign="middle"> 
+                <table width="100%" cellspacing="0" cellpadding="0" border="0" class="emailwrapto100pc"> 
+                 <tbody> 
+                  <tr> 
+                   <td valign="middle" align="left" elq-delete="true" elq-edit="Preheader Text" style="font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 11px; text-decoration: none; line-height: 16px; text-align: left; width: 47%; padding-left: 10px;" class="applelinks" ctmeditable="text" ctmname="Preheader Text">Solución de desinfección totalmente automatizada para carros de supermercado</td> 
+                   <td elq-edit="View Email Online Text" ctmeditable="text" ctmname="View Email Online Text" valign="middle" align="right" style="font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 11px; text-decoration: none; line-height: 16px; text-align: right; width: 47%; padding-right: 10px;" class="applelinks"> <a style="font-family: Arial, Helvetica, sans-serif; color: #535353; font-size: 11px; text-decoration: underline; line-height: 16px;" target="_blank" href="https://app.electricalsector.eaton.com/e/es.aspx?s=~~eloqua..type--emailfield..syntax--siteid..innerText--siteid..encodeFor--url~~&amp;e=~~eloqua..type--emailfield..syntax--elqemailsaveguid..innerText--elqemailsaveguid..encodeFor--url~~&amp;elqTrackId=bb2c2a58490845409996d9d535ea8b83&amp;source=post:1601536045490078294">ver email online</a> </td> 
+                  </tr> 
+                 </tbody> 
+                </table> </td> 
+              </tr> 
+             </tbody>
+            </table></td> 
+           <td width="10"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="10" height="1" style="display:block;" border="0" alt=""></td> 
+          </tr> 
+         </tbody>
+        </table></td> 
+      </tr> 
+      <tr> 
+       <td height="10" style="font-size: 1px; line-height: 1px;" class=""><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="10" style="display:block;" border="0" alt=""></td> 
+      </tr> 
+      <tr> 
+       <td align="center" valign="top">
+        <table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" class="emailwrapto100pc"> 
+         <tbody>
+          <tr> 
+           <td width="12"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="12" height="1" style="display:block;" border="0" alt=""></td> 
+           <td width="15" class="emailnomob"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="15" height="1" style="display:block;" border="0" alt=""></td> 
+           <td align="left" valign="middle">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+             <tbody>
+              <tr> 
+               <td height="10" style="font-size: 1px; line-height: 1px;" class="emailnomob"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="10" style="display:block;" border="0" alt=""></td> 
+              </tr> 
+              <tr> 
+               <td align="left" valign="middle" class=""><a target="_blank" href="https://www.eaton.com/es/es-es.html?source=post:1601536045490078294&elqTrackId=eeade3f280964ad1b6ebc685a24c10c3&elqTrack=true"> <img class="" alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;" src="https://img.en25.com/EloquaImages/clients/EatonSandbox/%7Bc4dc043a-a95a-4e8b-82c0-2619aab75f62%7D_Eaton-logo.gif" width="163" height="89" border="0"></a></td> 
+              </tr> 
+              <tr> 
+               <td height="10" style="font-size: 1px; line-height: 1px;" class="emailnomob"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="10" style="display:block;" border="0" alt=""></td> 
+              </tr> 
+             </tbody>
+            </table></td> 
+           <td width="15" class="emailnomob"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="15" height="1" style="display:block;" border="0" alt=""></td> 
+           <td width="10" class=""><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="10" height="1" style="display:block;" border="0" alt=""></td> 
+          </tr> 
+         </tbody>
+        </table> 
+        <table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#0066C3" class="hero"> 
+         <tbody>
+          <tr> 
+           <td colspan="5"><img src="https://images.electricalsector.eaton.com/EloquaImages/clients/EatonElectrical/{d4e6f6e2-acc1-46db-a2ad-65acb000e768}_eaton-css-simef-sanitroll-hero-picture-600x250.jpg" width="100%" height="" style="display:block;" border="0" alt="" class="emailwrapto100pc" ctmeditable="image" ctmname="Banner image" elq-edit="Banner Image"></td> 
+          </tr> 
+         </tbody>
+        </table> 
+        <table class="emailwrapto100pc" width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="#0066c3"> 
+         <tbody> 
+          <tr> 
+           <td colspan="5" valign="top" align="left"> 
+            <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+             <tbody> 
+              <tr> 
+               <td style="width: 10px;" class="emailnomob"> </td> 
+               <td class="" width="15"> <img alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7Ba9c9866b-2d75-4eec-85fa-621f704806b6%7D_spacer.gif" width="15" height="1" border="0"></td> 
+               <td> 
+                <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+                 <tbody> 
+                  <tr> 
+                   <td class="" width="15"> <img alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7Ba9c9866b-2d75-4eec-85fa-621f704806b6%7D_spacer.gif" width="15" height="20" border="0"></td> 
+                  </tr> 
+                  <tr> 
+                   <td class="" elq-edit="Banner Title" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 22px; text-decoration: none; line-height: 28px;" ctmeditable="text" ctmname="Banner Title" valign="top" align="left">Desinfectar es fácil</td> 
+                  </tr> 
+                  <tr> 
+                   <td class="" width="15"> <img alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7Ba9c9866b-2d75-4eec-85fa-621f704806b6%7D_spacer.gif" width="15" height="20" border="0"></td> 
+                  </tr> 
+                 </tbody> 
+                </table> </td> 
+               <td style="width: 10px;" class="emailnomob"> </td> 
+               <td class="" width="15"> <img alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7Ba9c9866b-2d75-4eec-85fa-621f704806b6%7D_spacer.gif" width="15" height="1" border="0"></td> 
+              </tr> 
+             </tbody> 
+            </table> </td> 
+          </tr> 
+         </tbody> 
+        </table> 
+        <table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#fff" align="center" style="background-color: #fff;" class="emailwrapto100pc"> 
+         <tbody>
+          <tr> 
+           <td style="padding: 20px 0 0;" width="100%" valign="top" align="left">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" class="emailwrapto100pc" align="center" style="background-color: #fff"> 
+             <tbody>
+              <tr> 
+               <td width="12"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="12" height="1" style="display:block;" border="0" alt=""></td> 
+               <td width="15" class="emailnomob"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="15" height="1" style="display:block;" border="0" alt=""></td> 
+               <td align="left" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                 <tbody> 
+                  <tr>
+                   <td style="font-family: Arial, Helvetica, sans-serif; color: #00111b; font-size: 14px; text-decoration: none; line-height: 22px;">
+                    <integration-personalization-placeholder></integration-personalization-placeholder></td>
+                  </tr> 
+                  <tr> 
+                   <td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; color: #00111b; font-size: 12px; text-decoration: none; line-height:22px;" class="applelinksblack" elq-edit="Main Body Intro Text">La pandemia del Covid-19 creó una mayor necesidad de desinfectar los artículos en las tiendas de comestibles y otros comercios muy concurridos. Para evitar que el personal tuviera que desinfectar todos los carros a mano, los gerentes de las tiendas recurrieron a la empresa Sanitroll para implementar urgentemente soluciones de desinfección eficaces y a gran escala.</td> 
+                  </tr> 
+                  <tr> 
+                   <td height="20" class=""><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="20" style="display:block;" border="0" alt=""></td> 
+                  </tr> 
+                 </tbody>
+                </table> 
+                <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                 <tbody>
+                  <tr> 
+                   <td align="left" valign="top" class="emailcolsplit">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc"> 
+                     <tbody>
+                      <tr> 
+                       <td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; color: #00111b; font-size: 12px; text-decoration: none; line-height:22px;" class="applelinksblack" elq-edit="Story 1 Text">
+                        <div>
+                         <p><strong>Solución de desinfección totalmente automatizada</strong></p>
+                         <p>Como respuesta a la pandemia, la empresa francesa SIMEF Industrie ha desarrollado, junto con Eaton y Sanitroll, un dispositivo fácil de usar para desinfectar a fondo y rápidamente los carros de supermercado. La solución puede ser utilizada por todos, incluidos los clientes.</p>
+                        </div></td> 
+                      </tr> 
+                      <tr> 
+                       <td height="20" class=""><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="20" style="display:block;" border="0" alt=""></td> 
+                      </tr> 
+                      <tr> 
+                       <td align="left" valign="top"> 
+                        <table cellspacing="0" cellpadding="0" border="0" bgcolor="#f0b340"> 
+                         <tbody> 
+                          <tr> 
+                           <td width="30" valign="middle" align="left"> <img width="30" height="34" border="0" alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif"></td> 
+                           <td valign="middle" align="center" height="34" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 14px; text-decoration: none; line-height: 1;" class="" ctmeditable="link" elq-edit="Story 1 CTA"> <a style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 14px; text-decoration: none; line-height: 20px;" target="_blank" href="http://www.eaton.com/es/es-es/markets/success-stories/SIMEF-Industrie.html?source=post:1601536045490078294&elqTrackId=8247f54e1e2142f188e1b37d1f974c73&elqTrack=true">Lea nuestro caso de éxito</a> </td> 
+                           <td width="30" valign="middle" align="left"> <img width="30" height="34" border="0" alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" class=""></td> 
+                          </tr> 
+                         </tbody> 
+                        </table> </td> 
+                      </tr> 
+                      <tr> 
+                       <td height="20" class=""><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="20" style="display:block;" border="0" alt=""></td> 
+                      </tr> 
+                     </tbody>
+                    </table></td> 
+                   <td width="15" align="left" valign="top" class="emailcolsplit"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="15" height="20" style="display:block;" border="0" alt=""></td> 
+                   <td width="280" align="left" valign="top" class="emailcolsplit"><img src="https://images.electricalsector.eaton.com/EloquaImages/clients/EatonElectrical/{ec8bdfa6-b1fb-425a-a894-5c2c86ea4058}_eaton-css-simef-280x220.jpg" width="280" alt="" class="" elq-edit="Story 1 Image"></td> 
+                  </tr> 
+                 </tbody>
+                </table> 
+                <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                 <tbody>
+                  <tr> 
+                   <td style="background-color: #f2f2f2;" height="1"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="1" style="display:block;" border="0" alt=""></td> 
+                  </tr> 
+                  <tr> 
+                   <td height="20" class=""><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="20" style="display:block;" border="0" alt=""></td> 
+                  </tr> 
+                 </tbody>
+                </table> 
+                <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                 <tbody>
+                  <tr> 
+                   <td align="left" valign="top" class="emailcolsplit">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc"> 
+                     <tbody>
+                      <tr> 
+                       <td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; color: #00111b; font-size: 12px; text-decoration: none; line-height:22px;" class="applelinksblack" elq-edit="Story 2 Text">
+                        <div>
+                         <p><strong>Nano controlador easyE4</strong></p>
+                         <p>El potente panel táctil con interfaz táctil resistiva está disponible para una cómoda visualización de los proyectos easyE4. Además, el software Galileo se utiliza para crear la visualización. Junto con el easyE4, se implementan soluciones compactas y potentes a través de las interfaces de comunicación integradas (Modbus TCP) del panel táctil easyE4. Gracias al servidor web integrado, la visualización también es posible en dispositivos móviles.</p>
+                        </div></td> 
+                      </tr> 
+                      <tr> 
+                       <td height="20" class=""><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="20" style="display:block;" border="0" alt=""></td> 
+                      </tr> 
+                      <tr> 
+                       <td align="left" valign="top" class=""> 
+                        <table cellspacing="0" cellpadding="0" border="0" bgcolor="#f0b340"> 
+                         <tbody> 
+                          <tr> 
+                           <td width="30" valign="middle" align="left"> <img width="30" height="34" border="0" alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif"></td> 
+                           <td valign="middle" align="center" height="34" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 14px; text-decoration: none; line-height: 1;" class="" ctmeditable="link" elq-edit="Story 2 CTA"> <a style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 14px; text-decoration: none; line-height: 20px;" target="_blank" href="https://www.eaton.com/es/es-es/catalog/industrial-control--drives--automation---sensors/easyE4-programmable-relays.html?source=post:1601536045490078294&elqTrackId=9a4ed50febb145c19c0e092aaea4de67&elqTrack=true">Conozca más</a> </td> 
+                           <td width="30" valign="middle" align="left"> <img width="30" height="34" border="0" alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif"></td> 
+                          </tr> 
+                         </tbody> 
+                        </table> </td> 
+                      </tr> 
+                      <tr> 
+                       <td height="20"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="1" height="20" style="display:block;" border="0" alt=""></td> 
+                      </tr> 
+                     </tbody>
+                    </table></td> 
+                   <td width="15" align="left" valign="top" class="emailcolsplit"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="15" height="20" style="display:block;" border="0" alt="" class=""></td> 
+                   <td width="280" align="left" valign="top" class="emailcolsplit"><img src="https://images.electricalsector.eaton.com/EloquaImages/clients/EatonElectrical/{d5550ced-04dc-4352-9fc1-5a6717a7222d}_eaton-easye4-programmable-relays-280x220.jpg" width="280" alt="" class="" elq-edit="Story 2 Image"></td> 
+                  </tr> 
+                 </tbody>
+                </table></td> 
+               <td width="12" class=""><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="12" height="1" style="display:block;" border="0" alt=""></td> 
+               <td width="15" class="emailnomob"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="15" height="1" style="display:block;" border="0" alt=""></td> 
+              </tr> 
+             </tbody>
+            </table> 
+            <table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" class="emailwrapto100pc"> 
+             <tbody>
+              <tr> 
+               <td width="12"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="12" height="1" style="display:block;" border="0" alt=""></td> 
+               <td width="15" class="emailnomob"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="15" height="1" style="display:block;" border="0" alt=""></td> 
+               <td align="left" valign="top">&nbsp;</td> 
+               <td width="12"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="12" height="1" style="display:block;" border="0" alt=""></td> 
+               <td width="15" class="emailnomob"><img src="https://img.en25.com/eloquaimages/clients/EatonSandbox/%7B4da03f22-ce38-48f2-a8b6-236710111cd3%7D_spacer.gif" width="15" height="1" style="display:block;" border="0" alt=""></td> 
+              </tr> 
+             </tbody>
+            </table></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+   </div> 
+  </div> 
+     
+     <div style="mso-hide:all;display:none;max-height:0px;overflow:hidden;">
+<img src="http://now.eloqua.com/e/f2.aspx?elqFormName=2020_ES_EMEA_Lead_Assets&elqSiteID=1521&emailAddress=~~eloqua..type--emailfield..syntax--EmailAddress~~&PercolateID=post:1601536045490078294" />
+</div>
+     
+     <style data-ignore-inlining>@media (prefers-color-scheme: dark) { #_t::before {content:url('https://ruatf4wc.emltrk.com/v2/ruatf4wc?rd&i=<span class=eloquaemail>Eloqua_Contact_ID1</span>');}} @media (prefers-color-scheme: light) { #_t::before {content:url('https://ruatf4wc.emltrk.com/v2/ruatf4wc?rl&i=<span class=eloquaemail>Eloqua_Contact_ID1</span>');}} @media print{ #_t {background-image:url('https://ruatf4wc.emltrk.com/v2/ruatf4wc?p&i=<span class=eloquaemail>Eloqua_Contact_ID1</span>');}} div.OutlookMessageHeader {background-image:url('https://ruatf4wc.emltrk.com/v2/ruatf4wc?f&i=<span class=eloquaemail>Eloqua_Contact_ID1</span>')} table.moz-email-headers-table {background-image:url('https://ruatf4wc.emltrk.com/v2/ruatf4wc?f&i=<span class=eloquaemail>Eloqua_Contact_ID1</span>')}
+ blockquote #_t {background-image:url('https://ruatf4wc.emltrk.com/v2/ruatf4wc?f&i=<span class=eloquaemail>Eloqua_Contact_ID1</span>')} #MailContainerBody #_t {background-image:url('https://ruatf4wc.emltrk.com/v2/ruatf4wc?f&i=<span class=eloquaemail>Eloqua_Contact_ID1</span>')}</style><div id="_t"></div>
+<img src="https://ruatf4wc.emltrk.com/v2/ruatf4wc?i=~~eloqua..type--emailfield..syntax--Eloqua_Contact_ID1..innerText--Eloqua_Contact_ID1~~" width="1" height="1" border="0" alt="" />
+     
+ </body>
+</html>
